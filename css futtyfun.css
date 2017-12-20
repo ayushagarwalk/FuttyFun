@@ -1,0 +1,683 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-attachment: fixed;
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align:center;
+}
+
+.outer {
+	width: 960px;
+	height:auto;
+	position: relative;
+	border: 6px solid #fff;
+	border-radius: 15px;
+	box-shadow: 0 1px 5px #333;
+	margin: auto;
+}
+#banner {
+	background-image: url(images/Banner1.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 960px;
+	border-radius:10px;
+}
+#navbg {
+	background-repeat: repeat-x;
+	float: left;
+	height: 50px;
+	width: 960px;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	background-image: url(images/nav1.jpg);
+}
+#navbg li {
+	float:left;
+	padding:0 23px;
+	font-family: "MS Serif";
+	border-right:#000 1px solid;
+}
+#navbg li a {
+	font-family: "Estrangelo Edessa";
+	font-size: 20px;
+	
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+	
+	}
+#navbg li a:hover{
+	font-family: "Estrangelo Edessa";
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	}
+.mainbox {
+	background-color: #CCC;
+	height: auto;
+	width: 960px;
+	text-align: left;
+}
+.box1 {
+	background-color: #CCC;
+	float: left;
+	height: auto;
+	width: 765px;
+	margin-top: 10px;
+	margin-left: 23px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+.box2 {
+	background-color: #CCC;
+	float: left;
+	height: 290px;
+	width: 765px;
+    margin-bottom: 8px;
+	margin-left: 23px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+	padding-bottom: 35px;
+}
+.box3 {
+	background-color: #CCC;
+	height: 310px;
+	width: 765px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 23px;
+}
+.box4 {
+	float: right;
+	height: auto ;
+	width: 136px;
+	margin-top: 10px;
+}
+.box11 {
+	background-color: #CCC;
+	float: left;
+	width: 362px;
+	height: 382px;
+}
+.box12 {
+	background-color: #CCC;
+	float: right;
+	width: 362px;
+	height: 382px;
+}
+.box31 {
+	background-color: #CCC;
+	float: left;
+	height: 310px;
+	width: 362px;
+}
+.box32 {
+	background-color: #CCC;
+	float: right;
+	height: 310px;
+	width: 362px;
+}
+.box21 {
+	background-color: #CCC;
+	float: left;
+	width: 238px;
+	height: 202px;
+	margin-top: 31px;
+}
+.box22 {
+	background-color: #CCC;
+	float: left;
+	width: 238px;
+	height: 202px;
+	margin-top: 31px;
+	margin-left: 25.5px;
+}
+.box23 {
+	background-color: #CCC;
+	float: right;
+	width: 238px;
+	height: 202px;
+	margin-top: 31px;
+}
+.footer {
+	background-color: #FFF;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
+.box1x4head {
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 57px;
+	width: 362px;
+	border-radius: 10px;
+}
+.box1x4head p{
+	font-family: "Estrangelo Edessa";
+	font-size: 32px;
+	font-style: normal;
+	color: #FFF;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 15px;
+	
+}
+.box1x2shead {
+	font-family: "Estrangelo Edessa";
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 77px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.box1info {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.readmore1 {
+	background-image: url(images/rectanglebg1.jpg);
+	float: right;
+	width: 84px;
+	height:25px;
+	margin-right: 20px;
+	background-repeat: repeat-x;
+	border-radius: 6px;
+}
+.readmore2 {
+	background-image: url(images/rectanglebg1.jpg);
+	float: right;
+	width: 84px;
+	height:25px;
+	margin-right: 20px;
+	background-repeat: repeat-x;
+	border-radius: 6px;
+	margin-top: 6px;
+}
+.readmore1 p {
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-left: 9px;
+	list-style-type: none;
+	color: #FFF;
+}
+.readmore2 p {
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-left: 9px;
+	list-style-type: none;
+	color: #FFF;
+}
+.box2info {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 42px;
+	margin-right: 20px;
+}
+.box2head{
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	height: 57px;
+	width: 765px;
+	float: left;
+	border-radius: 10px;
+	margin-top:10px;
+	
+	}
+
+.box2head p, .soccergamehead p, .soccerteamhead p, .galleryhead p {
+	font-family: "Estrangelo Edessa";
+	font-size: 32px;
+	font-style: normal;
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+#navbg ul li {
+	font-family: "MS Serif";
+	font-size: 21px;
+	text-decoration: none;
+	list-style-type: none;
+	color: #FFF;
+	float: left;
+}
+.footer ul li {
+	float:left;
+	padding:0 5px;
+	font-family: "MS Serif", "New York", serif;
+	border-right:#000 1px solid;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	list-style-type: none;
+}
+ul.footer_nav {
+	float:left;
+}
+ul.footer_social {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+p {
+	text-align: justify;
+}
+.box4info {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 78px;
+	margin-right: 20px;
+}
+.box5info {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 78px;
+	margin-right: 20px;
+}
+.box4info img {
+	margin-left: 6px;
+	padding-top: 6px;
+}
+.box5info img {
+	margin-left: 6px;
+	padding-top: 6px;
+}
+.box2info img {
+	margin-left: 6px;
+	padding-top: 6px;
+}
+.box2 p1 {
+	font-family: "Estrangelo Edessa";
+	font-size: 13px;
+	color: #39F;
+	text-decoration: none;
+}
+.box2 p2 {
+	font-family: "Estrangelo Edessa";
+	font-size: 11.5px;
+	color: #000;
+	text-decoration: none;
+}
+
+/*start soccer team*/
+
+.soccerteamhead {
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	height: 57px;
+	width: 745px;
+	float: left;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	
+}
+.teamhead p {
+	font-family: "Estrangelo Edessa";
+	font-size: 32px;
+	font-style: normal;
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: 35px;
+	paddind-top: 20px;
+}
+.teaminfo {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	margin-left:8px;
+	margin-top: 75px;
+	
+}
+.teaminfo img{
+	padding-left: 5px;
+	padding-top:6px;
+	
+}
+#teambox1 {
+	background-color: #CCC;
+	float: left;
+	height: 350px;
+	width: 745px;
+	margin-top: 0px;
+	margin-left: 35px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	padding-bottom: 0px;
+}
+
+#teambox2 {
+	float: left;
+	height: auto;
+	width: 745px;
+	margin-left: 35px;
+}
+.p1 {
+	font-family: "komika axis";
+	font-size: 15px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	}
+.p2{
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	text-align: justify;
+	}
+#teambox2 p img {
+	padding-left: 4px;
+	padding-bottom: 3px;
+}	
+.t1 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t2 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t3 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t4 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t5 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t6 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t7 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t8 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t9 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t10 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t11 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t12 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t13 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}.t14 {
+	float: left;
+	height: 108px;
+	width: 745px;
+}
+/*End of Soccer Team*/
+/*start of Soccer games*/
+
+ .soccergamehead {
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	height: 57px;
+	width: 765px;
+	float: left;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 18px;
+	
+}
+ .sg2 { 	
+	width: 240px;
+	height: 2300px;
+	background-color:#999;
+	float:left;
+	overflow:hidden;
+	margin-left:20px;
+	text-align: left;
+}
+.sg1 {
+	width: 240px;
+	height: 2300px;
+	background-color:#999;
+	float:left;
+	overflow:hidden;
+	margin-left:20px;
+	text-align: left;
+}
+.sg3 { 
+width: 240px;
+height: 2300px;
+background-color:#999;
+float:left;
+overflow:hidden;
+margin-left:20px;
+text-align: left;
+}
+.sg1, .sg2, .sg3 ul li {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	font-style: normal;
+	color: #000;
+	text-decoration: none;
+	list-style-type: disc;
+	}
+/*End of Soccer games*/	
+
+/*start of news and events*/
+
+.newseventbox {
+	width:765px;
+	height:auto;
+	margin-left:23px;
+	float:left;
+	}
+.newsbox {
+	width:485px;
+	float:left;
+	height:auto;
+	}	
+.eventbox{
+	width:260px;
+	height:auto;
+	float:right;
+	
+	}	
+.newshead {
+	
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 57px;
+	width: 485px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+.eventhead {
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 57px;
+	width: 260px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+
+.newshead p , .eventhead p {
+	font-family: "Estrangelo Edessa";
+	font-size: 32px;
+	font-style: normal;
+	color: #FFF;
+	text-decoration: none;
+	margin-top: 15px;
+	margin-left: 15px;
+	}
+.eventdate {
+	width:260px;
+	height:16px;
+	background-repeat: no-repeat;
+	background-color: #999;
+	}
+.eventdate p {
+	font-family: "Estrangelo Edessa";
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	padding-top:3px;
+	padding-left:4px;
+	}	
+.teamname p{
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	
+	
+	}	
+.teammatch {
+	font-family: "Estrangelo Edessa";
+	font-size: 13px;
+	color: #336699;
+	text-decoration: none;
+	line-height:2px;
+	}	
+.teamcup {
+	font-family: "Estrangelo Edessa";
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	}	
+.nav-list {
+	padding:0px;
+	}	
+.nav-list li {
+	float:left;
+	background-color:#999;
+	color:#FFF;
+	padding: 10px;
+	margin:0px;
+	list-style-type: none;
+	margin-right:2px;
+	font-size: 12px;	
+	}
+	
+	
+.ns1, .ns2, .ns3, .ns4, .ns5, .ns6 {
+	width:485px;
+	height:130px;
+	padding-top:10px;
+	
+	}
+.ns1 img, .ns2 img, .ns3 img, .ns4 img, .ns5  img, .ns6 img {
+	float:left;
+	padding-right: 10px;
+	
+	}
+.npara1 {
+	font-family: "Estrangelo Edessa";
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+		
+	}	
+.npara2 {
+	font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	color: #666;
+	text-decoration: none;
+	
+	}	
+.npara3{
+		font-family: "Estrangelo Edessa";
+	font-size: 14px;
+	color: #000 ;
+	text-decoration: none;
+	
+	}	
+	
+.galleryhead {
+	background-image: url(images/rectanglebg.jpg);
+	background-repeat: repeat-x;
+	float:left;
+	height: 57px;
+	width: 790px;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.gvbox{
+	float: left;
+	height: auto;
+	width: 790px;
+	margin-top: 10px;
+	margin-left: 20px;
+	
+	}
+.gv1{
+	padding-right: 14px;
+	height:180px;
+	width:182px;
+	float:left;
+	padding-bottom: 10px;
+	}	
+	
+.gp1 {
+	font-family: "Estrangelo Edessa";
+	font-size: 13px;
+	color: #3399ff;
+	text-decoration: none;
+	}
+.gp2 {
+	font-family: "Estrangelo Edessa";
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}	
+	
