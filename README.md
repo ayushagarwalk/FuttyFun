@@ -3,7 +3,7 @@ Static HTML &amp; CSS Website
 
 ## Description
 
-FuttyFun a simple Static Website Build with HTML & CSS.
+FuttyFun is a simple Static Website Built with HTML & CSS.
 
 ### Prerequisites
 
