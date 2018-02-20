@@ -14,7 +14,7 @@ Fonts to be installed
 
 ## Built With
 
-* [HTML](http://www.dropwizard.io/1.0.2/docs/) - With HTML you can create your own Website.
+* [HTML](https://www.w3schools.com/html/) - With HTML you can create your own Website.
 * [CSS](https://www.w3schools.com/css/) - CSS describes how HTML elements should be displayed.
 
 ## Contributing
